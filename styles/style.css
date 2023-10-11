@@ -80,7 +80,48 @@
 }
 /* brand new section styles end */
 
+/* features section styles start*/
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 233px 0 233px;
+    gap: 100px;
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.team{
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+}
+.feature-info {
+    margin: 255px 50px;
+}
+
+.quick-list{
+    font-size: 45px;
+    color: grey;
+}
+.of-our{
+    font-size: 45px;
+    font-weight: bold;
+}
+.features{
+    font-size: 45px;
+    font-weight: bold;
+    color: #FF900E;
+    margin-bottom: 20px;
+}
+.features-desc{
+    color: gray;
+    margin-bottom: 20px;
+}
+
 /* responsive styles */
+/* for header responsive  small device*/
 @media screen and (max-width:576px) {
     .nav-menu{
         flex-direction: column;
@@ -95,3 +136,4 @@
         margin-left: 0;
     }
 }
+/* for header responsive  end*/
