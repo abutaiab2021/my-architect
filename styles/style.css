@@ -120,6 +120,45 @@
     margin-bottom: 20px;
 }
 
+/* love enjoy styles */
+.love-enjoy-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 140px;
+    padding: 100px 220px;
+}
+
+.love-enjoy-item-1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.love-enjoy-item-1 p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.love-enjoy-item-2{
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.love-enjoy-item-2 h2 {
+    margin-bottom: 20px;
+}
+
+.love-enjoy-item-2 p{
+    color: grey;
+}
+.love-enjoy-image img{
+    height: 880px;
+    width: 700px;
+}
+
 /* responsive styles */
 /* for header responsive  small device*/
 @media screen and (max-width:576px) {
