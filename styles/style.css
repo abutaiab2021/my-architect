@@ -223,6 +223,31 @@
   font-weight: 600;
 }
 
+/* sponsor section styles */
+.sponsor-container{
+ padding: 80px 220px;
+}
+.sponsor-info{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.sponsor-info h2{
+  font-size: 45px;
+}
+
+.sponsor-info p {
+    text-align: center;
+    padding: 0 500px;
+    color: grey;
+}
+
+.sponsor-client img{
+  margin: 0 10px 0 100px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 /* responsive styles */
 /* for header responsive  small device*/
 @media screen and (max-width: 576px) {
