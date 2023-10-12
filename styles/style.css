@@ -136,4 +136,16 @@
         margin-left: 0;
     }
 }
-/* for header responsive  end*/
+/* feature section responsive*/
+@media screen and (max-width:576px) {
+    .feature-container{
+        flex-direction: column ;
+        align-items: center;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-info {
+    margin:0;
+    }
+}
